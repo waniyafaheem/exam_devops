@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: waniyafaheem/static-site:v1
+    build: .
+    ports:
+      - "8080:80"
